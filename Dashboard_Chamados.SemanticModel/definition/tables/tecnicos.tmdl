@@ -1,0 +1,53 @@
+table tecnicos
+	lineageTag: 74a83d07-925c-4f9d-bc87-b651f47cd29f
+
+	column id_tecnico
+		dataType: int64
+		lineageTag: 35868d34-0d7e-4c35-8f0d-c7dd6510ff23
+		summarizeBy: none
+		sourceColumn: id_tecnico
+
+	column nome
+		dataType: string
+		lineageTag: 6d885bb6-293a-4862-9c5a-c262d65edd6e
+		summarizeBy: none
+		sourceColumn: nome
+
+	column nivel
+		dataType: string
+		lineageTag: 95abadcc-7494-49c5-916f-81a60ba67b18
+		summarizeBy: none
+		sourceColumn: nivel
+
+	column equipe
+		dataType: string
+		lineageTag: e379a1d9-ca33-4cc3-95e1-0ac6c1dd4f38
+		summarizeBy: none
+		sourceColumn: equipe
+
+	column data_admissao
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: 667fad68-b686-43ed-b067-969ad53ff026
+		summarizeBy: none
+		sourceColumn: data_admissao
+
+		variation Variation
+			isDefault
+			relationship: 8c81d685-c62a-45ce-8111-f510da697b44
+			defaultHierarchy: LocalDateTable_4248f7f4-6a97-4959-ab05-7d0205dc197f.'Hierarquia de datas'
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition tecnicos = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\ALESSANDRO\Desktop\Projetos GitHub\dashboard-chamados-powerbi\csv\tecnicos.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promovidos = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Cabecalhos = Table.TransformColumnNames(Promovidos, each Text.Replace(_, "#(feff)", "")),
+				    Vazios = Table.ReplaceValue(Cabecalhos, "", null, Replacer.ReplaceValue, Table.ColumnNames(Cabecalhos)),
+				    Tipos = Table.TransformColumnTypes(Vazios, {{"id_tecnico", Int64.Type}, {"nome", type text}, {"nivel", type text}, {"equipe", type text}, {"data_admissao", type date}}, "en-US")
+				in
+				    Tipos
+

@@ -1,0 +1,213 @@
+table chamados
+	lineageTag: a1799ffd-aa37-4c1a-8517-96d34788d65f
+
+	measure 'Total de Chamados' = COUNTROWS(chamados)
+		formatString: #,0
+		lineageTag: b9f6149c-df5e-4763-8628-2551258d1fd3
+
+	measure 'Chamados Encerrados' = CALCULATE([Total de Chamados], chamados[status] = "Encerrado")
+		formatString: #,0
+		lineageTag: 5b22f1c9-127c-493d-957e-cb6d28771d9d
+
+	measure '% SLA Cumprido' = DIVIDE(CALCULATE([Total de Chamados], chamados[cumpriu_sla] = "Sim"), CALCULATE([Total de Chamados], NOT ISBLANK(chamados[cumpriu_sla])))
+		formatString: 0.0%
+		lineageTag: b14376ac-8242-4ca2-b2bd-22ea98d378e5
+
+	measure 'Tempo Médio de Reparo (h)' = AVERAGE(chamados[tempo_reparo_h])
+		formatString: #,0.0
+		lineageTag: 77c8935b-54e3-4fb4-a646-320cedfd5da6
+
+	measure 'Tempo Médio Total (h)' = AVERAGE(chamados[tempo_total_h])
+		formatString: #,0.0
+		lineageTag: 1797b441-fb19-4428-b3b5-e859bbd05989
+
+	measure 'Chamados Críticos' = CALCULATE([Total de Chamados], chamados[prioridade] = "Crítica")
+		formatString: #,0
+		lineageTag: afde4737-7321-4966-be60-a1be1c7c749e
+
+	measure 'Falhas de Equipamento' = CALCULATE([Total de Chamados], chamados[tipo_falha] = "Falha de equipamento")
+		formatString: #,0
+		lineageTag: ef4d9e27-f16d-4e9a-ba82-454711990c9a
+
+	measure 'Furtos e Vandalismo' = CALCULATE([Total de Chamados], chamados[tipo_falha] = "Furto/vandalismo de cabo")
+		formatString: #,0
+		lineageTag: 4107d89a-8c01-454d-904a-45608204946e
+
+	measure 'Rompimentos por Mês' = DIVIDE(CALCULATE([Total de Chamados], chamados[tipo_falha] = "Rompimento de fibra"), DISTINCTCOUNT(Calendario[MesOrdem]))
+		formatString: #,0
+		lineageTag: 7d4e2020-e290-43f0-8be0-1aed9f86aac8
+
+	measure 'Tempo Reparo Rompimento (h)' = CALCULATE([Tempo Médio de Reparo (h)], chamados[tipo_falha] = "Rompimento de fibra")
+		formatString: #,0.0
+		lineageTag: 2a399373-1bbe-464b-99cb-d9ac5e80aee4
+
+	column id_chamado
+		dataType: int64
+		lineageTag: acb77135-bc2d-40ba-a781-fb2d6ad1a262
+		summarizeBy: sum
+		sourceColumn: id_chamado
+
+		annotation SummarizationSetBy = Automatic
+
+	column abertura
+		dataType: dateTime
+		formatString: dd/mm/yyyy hh:nn
+		lineageTag: a03700f2-2f62-4dc9-9419-8ca18e2cec7a
+		summarizeBy: none
+		sourceColumn: abertura
+
+		variation Variation
+			isDefault
+			relationship: 26d863b5-64f9-4bba-9a3b-e03628705bc2
+			defaultHierarchy: LocalDateTable_08c7956d-b255-4777-b691-42a5563bef6c.'Hierarquia de datas'
+
+	column inicio_atendimento
+		dataType: dateTime
+		formatString: dd/mm/yyyy hh:nn
+		lineageTag: c0f8f2e3-02ba-433a-8547-5edbac97d0d2
+		summarizeBy: none
+		sourceColumn: inicio_atendimento
+
+		variation Variation
+			isDefault
+			relationship: 1f673f52-4c3f-469f-9247-652ff68f7983
+			defaultHierarchy: LocalDateTable_0ebecb46-c5ce-40d1-8460-d6442634a680.'Hierarquia de datas'
+
+	column encerramento
+		dataType: dateTime
+		formatString: dd/mm/yyyy hh:nn
+		lineageTag: 37e070ea-2a3d-4b20-b21d-84ff88db5921
+		summarizeBy: none
+		sourceColumn: encerramento
+
+		variation Variation
+			isDefault
+			relationship: e31615cb-82d6-4375-9449-e11169ac9473
+			defaultHierarchy: LocalDateTable_2665088a-17f1-472a-b2a0-65d9545ce76f.'Hierarquia de datas'
+
+	column id_cliente
+		dataType: int64
+		lineageTag: d8be3dde-d45a-4e86-9263-6aaf799d82fe
+		summarizeBy: none
+		sourceColumn: id_cliente
+
+	column id_pop
+		dataType: int64
+		lineageTag: a5a022f3-09e4-492b-b6b8-9a26aa1febf3
+		summarizeBy: none
+		sourceColumn: id_pop
+
+	column id_tecnico
+		dataType: int64
+		lineageTag: af5abfab-fea5-41a9-9c52-368c8e94374a
+		summarizeBy: none
+		sourceColumn: id_tecnico
+
+	column tipo_falha
+		dataType: string
+		lineageTag: 3acc3519-ce34-4f72-bb56-6ca0f48a88ae
+		summarizeBy: none
+		sourceColumn: tipo_falha
+
+	column causa_raiz
+		dataType: string
+		lineageTag: e82a8761-55eb-479b-afe3-38c2b383bd07
+		summarizeBy: none
+		sourceColumn: causa_raiz
+
+	column prioridade
+		dataType: string
+		lineageTag: 56a44cfb-a4ac-429b-b033-be0095b41294
+		summarizeBy: none
+		sourceColumn: prioridade
+
+	column sla_horas
+		dataType: int64
+		lineageTag: 317a4be5-79da-4be2-8ea9-3b67284dcc6b
+		summarizeBy: sum
+		sourceColumn: sla_horas
+
+		annotation SummarizationSetBy = Automatic
+
+	column distancia_falha_km
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 080b5e04-3f0d-42ad-96e2-e5a18f1d2ae5
+		summarizeBy: sum
+		sourceColumn: distancia_falha_km
+
+		annotation SummarizationSetBy = Automatic
+
+	column perda_db
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 7851ee1d-180e-437d-b7aa-130e3452b446
+		summarizeBy: sum
+		sourceColumn: perda_db
+
+		annotation SummarizationSetBy = Automatic
+
+	column status
+		dataType: string
+		lineageTag: 3a99ee75-53ad-4f5b-9824-98df06ddac47
+		summarizeBy: none
+		sourceColumn: status
+
+	column data_abertura
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: 6efc2208-65be-4f67-9d2c-51cabc189361
+		summarizeBy: none
+		sourceColumn: data_abertura
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column tempo_total_h
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 438f1260-0f64-492d-a0d1-94d2da5debe9
+		summarizeBy: sum
+		sourceColumn: tempo_total_h
+
+		annotation SummarizationSetBy = Automatic
+
+	column tempo_reparo_h
+		dataType: double
+		formatString: #,0.00
+		lineageTag: d2b07ac8-af49-49bb-8b90-a4905c55439e
+		summarizeBy: sum
+		sourceColumn: tempo_reparo_h
+
+		annotation SummarizationSetBy = Automatic
+
+	column cumpriu_sla
+		dataType: string
+		lineageTag: 3d03e774-f732-43b5-8295-192b1e3f15f2
+		summarizeBy: none
+		sourceColumn: cumpriu_sla
+
+	column turno
+		dataType: string
+		lineageTag: f2361885-e859-4c64-9333-ad7c941b1b78
+		summarizeBy: none
+		sourceColumn: turno
+
+	partition chamados = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\ALESSANDRO\Desktop\Projetos GitHub\dashboard-chamados-powerbi\csv\chamados.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promovidos = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Cabecalhos = Table.TransformColumnNames(Promovidos, each Text.Replace(_, "#(feff)", "")),
+				    Vazios = Table.ReplaceValue(Cabecalhos, "", null, Replacer.ReplaceValue, Table.ColumnNames(Cabecalhos)),
+				    Tipos = Table.TransformColumnTypes(Vazios, {{"id_chamado", Int64.Type}, {"abertura", type datetime}, {"inicio_atendimento", type datetime}, {"encerramento", type datetime}, {"id_cliente", Int64.Type}, {"id_pop", Int64.Type}, {"id_tecnico", Int64.Type}, {"tipo_falha", type text}, {"causa_raiz", type text}, {"prioridade", type text}, {"sla_horas", Int64.Type}, {"distancia_falha_km", type number}, {"perda_db", type number}, {"status", type text}}, "en-US"),
+				    TipoCorrigido = Table.TransformColumns(Tipos, {{"tipo_falha", each Text.Upper(Text.Start(_, 1)) & Text.Lower(Text.Middle(_, 1)), type text}}),
+				    CausaVazia = Table.ReplaceValue(TipoCorrigido, null, "Não informada", Replacer.ReplaceValue, {"causa_raiz"}),
+				    DataAbertura = Table.AddColumn(CausaVazia, "data_abertura", each DateTime.Date([abertura]), type date),
+				    TempoTotal = Table.AddColumn(DataAbertura, "tempo_total_h", each if [encerramento] = null then null else Duration.TotalHours([encerramento] - [abertura]), type number),
+				    TempoReparo = Table.AddColumn(TempoTotal, "tempo_reparo_h", each if [encerramento] = null then null else Duration.TotalHours([encerramento] - [inicio_atendimento]), type number),
+				    Sla = Table.AddColumn(TempoReparo, "cumpriu_sla", each if [tempo_total_h] = null then null else if [tempo_total_h] <= [sla_horas] then "Sim" else "Não", type text),
+				    Turno = Table.AddColumn(Sla, "turno", each if Time.Hour([abertura]) >= 22 or Time.Hour([abertura]) < 5 then "Noite" else "Dia", type text)
+				in
+				    Turno
+

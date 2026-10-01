@@ -1,0 +1,53 @@
+table Calendario
+	lineageTag: d271ba02-f1eb-4c49-a8b8-6044d11b7451
+
+	column Date
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: d4e4aaa0-aa95-41e2-aa0b-6de66ad72335
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		variation Variation
+			isDefault
+			relationship: be3dd3d3-617e-425b-b9f7-459d75b81643
+			defaultHierarchy: LocalDateTable_2a1ddcd8-8b30-49e4-9b2f-e5a078723d4c.'Hierarquia de datas'
+
+	column Ano
+		dataType: int64
+		lineageTag: cdfac3a3-8b3c-48d5-a753-5ab055f33ff0
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Ano]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mês
+		dataType: string
+		lineageTag: a41a4499-d130-44d5-8341-26841be4e3b9
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Mês]
+		sortByColumn: MesOrdem
+
+	column MesOrdem
+		dataType: int64
+		lineageTag: 20d51c56-149b-4f36-b4a6-36711af65656
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [MesOrdem]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Época
+		dataType: string
+		lineageTag: 6c054f94-2c1c-418b-afe2-4e2223404c63
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Época]
+
+	partition Calendario = calculated
+		mode: import
+		source = ADDCOLUMNS(CALENDAR(DATE(2025, 1, 1), DATE(2026, 9, 30)), "Ano", YEAR([Date]), "Mês", FORMAT([Date], "mmm/yy"), "MesOrdem", YEAR([Date]) * 100 + MONTH([Date]), "Época", IF(MONTH([Date]) IN {12, 1, 2, 3}, "Chuvas", "Seca"))
+

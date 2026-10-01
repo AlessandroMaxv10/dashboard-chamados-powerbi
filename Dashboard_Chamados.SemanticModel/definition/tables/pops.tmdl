@@ -1,0 +1,45 @@
+table pops
+	lineageTag: 15602bc7-d7f9-4b96-9213-8b204d888ede
+
+	column id_pop
+		dataType: int64
+		lineageTag: 6ae069ed-f2c3-4a3a-a00a-6bd78726a484
+		summarizeBy: none
+		sourceColumn: id_pop
+
+	column nome_pop
+		dataType: string
+		lineageTag: 8645bac7-89a8-4c84-81c8-15a85ee8fc22
+		summarizeBy: none
+		sourceColumn: nome_pop
+
+	column cidade
+		dataType: string
+		lineageTag: 7be57b03-3e05-4588-83cf-44b90f7c7785
+		summarizeBy: none
+		sourceColumn: cidade
+
+	column regiao
+		dataType: string
+		lineageTag: 79e4ff2a-202b-4123-aa94-6a7445ff63f4
+		summarizeBy: none
+		sourceColumn: regiao
+
+	column ano_instalacao
+		dataType: int64
+		lineageTag: 4fbf22e8-fb2c-4b55-a128-13b6784b4528
+		summarizeBy: none
+		sourceColumn: ano_instalacao
+
+	partition pops = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\ALESSANDRO\Desktop\Projetos GitHub\dashboard-chamados-powerbi\csv\pops.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promovidos = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Cabecalhos = Table.TransformColumnNames(Promovidos, each Text.Replace(_, "#(feff)", "")),
+				    Vazios = Table.ReplaceValue(Cabecalhos, "", null, Replacer.ReplaceValue, Table.ColumnNames(Cabecalhos)),
+				    Tipos = Table.TransformColumnTypes(Vazios, {{"id_pop", Int64.Type}, {"nome_pop", type text}, {"cidade", type text}, {"regiao", type text}, {"ano_instalacao", Int64.Type}}, "en-US")
+				in
+				    Tipos
+

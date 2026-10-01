@@ -1,0 +1,52 @@
+table clientes
+	lineageTag: 5b54ade0-e26a-4c31-80f3-0b2d2f1557e3
+
+	column id_cliente
+		dataType: int64
+		lineageTag: 267457ee-9c38-44a3-bd6f-ce2afcb02827
+		summarizeBy: none
+		sourceColumn: id_cliente
+
+	column nome_cliente
+		dataType: string
+		lineageTag: 4c382872-d111-4592-b45d-cf8cc4b79747
+		summarizeBy: none
+		sourceColumn: nome_cliente
+
+	column segmento
+		dataType: string
+		lineageTag: 8bd37631-7ee6-46ee-8d70-e7a43585f9be
+		summarizeBy: none
+		sourceColumn: segmento
+
+	column plano
+		dataType: string
+		lineageTag: ddddd6de-37df-46e7-8ee7-27732a1b616d
+		summarizeBy: none
+		sourceColumn: plano
+
+	column cidade
+		dataType: string
+		lineageTag: 605ad665-4500-4bde-b601-621813d9b027
+		summarizeBy: none
+		sourceColumn: cidade
+
+	column valor_mensal
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 7e4015be-171a-4442-b0f3-f8d1402d13ed
+		summarizeBy: none
+		sourceColumn: valor_mensal
+
+	partition clientes = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\ALESSANDRO\Desktop\Projetos GitHub\dashboard-chamados-powerbi\csv\clientes.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promovidos = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Cabecalhos = Table.TransformColumnNames(Promovidos, each Text.Replace(_, "#(feff)", "")),
+				    Vazios = Table.ReplaceValue(Cabecalhos, "", null, Replacer.ReplaceValue, Table.ColumnNames(Cabecalhos)),
+				    Tipos = Table.TransformColumnTypes(Vazios, {{"id_cliente", Int64.Type}, {"nome_cliente", type text}, {"segmento", type text}, {"plano", type text}, {"cidade", type text}, {"valor_mensal", type number}}, "en-US")
+				in
+				    Tipos
+
