@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Dashboard_Chamados"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "6062f076-ac22-4833-b3e6-5a65e3a6e90f"
+  }
+}

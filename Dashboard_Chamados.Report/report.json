@@ -1,0 +1,265 @@
+{
+  "config": "{\"version\":\"5.66\",\"themeCollection\":{\"baseTheme\":{\"name\":\"TemaChamados\",\"type\":2,\"version\":{\"visual\":\"1.8.97\",\"report\":\"2.0.97\",\"page\":\"1.3.97\"}}},\"activeSectionIndex\":2,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useEnhancedTooltips\":false}}",
+  "filters": "[]",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "TemaChamados",
+            "path": "BaseThemes/TemaChamados.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Visão geral",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection1",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"v001\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":10,\"z\":0,\"width\":1240,\"height\":50}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Manutenção de rede: visão geral\",\"textStyle\":{\"fontSize\":\"22pt\",\"color\":\"#1F3A5F\",\"fontWeight\":\"bold\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 50.00,
+          "width": 1240.00,
+          "x": 20.00,
+          "y": 10.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"v002\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":55,\"z\":1000,\"width\":1240,\"height\":30}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Chamados de jan/2025 a set/2026 · base fictícia para estudo\",\"textStyle\":{\"fontSize\":\"11pt\",\"color\":\"#56656E\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 30.00,
+          "width": 1240.00,
+          "x": 20.00,
+          "y": 55.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"v003\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":95,\"z\":2000,\"width\":290,\"height\":110}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"chamados.Total de Chamados\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t0\",\"Entity\":\"chamados\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"Total de Chamados\"},\"Name\":\"chamados.Total de Chamados\",\"NativeReferenceName\":\"Total de Chamados\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1F3A5F'\"}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"28D\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 110.00,
+          "width": 290.00,
+          "x": 20.00,
+          "y": 95.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"v004\",\"layouts\":[{\"id\":0,\"position\":{\"x\":330,\"y\":95,\"z\":3000,\"width\":290,\"height\":110}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"chamados.% SLA Cumprido\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t0\",\"Entity\":\"chamados\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"% SLA Cumprido\"},\"Name\":\"chamados.% SLA Cumprido\",\"NativeReferenceName\":\"% SLA Cumprido\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1F3A5F'\"}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"28D\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 110.00,
+          "width": 290.00,
+          "x": 330.00,
+          "y": 95.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"v005\",\"layouts\":[{\"id\":0,\"position\":{\"x\":640,\"y\":95,\"z\":4000,\"width\":290,\"height\":110}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"chamados.Tempo Médio de Reparo (h)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t0\",\"Entity\":\"chamados\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"Tempo Médio de Reparo (h)\"},\"Name\":\"chamados.Tempo Médio de Reparo (h)\",\"NativeReferenceName\":\"Tempo Médio de Reparo (h)\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1F3A5F'\"}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"28D\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 110.00,
+          "width": 290.00,
+          "x": 640.00,
+          "y": 95.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"v006\",\"layouts\":[{\"id\":0,\"position\":{\"x\":950,\"y\":95,\"z\":5000,\"width\":290,\"height\":110}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"chamados.Chamados Críticos\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t0\",\"Entity\":\"chamados\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"Chamados Críticos\"},\"Name\":\"chamados.Chamados Críticos\",\"NativeReferenceName\":\"Chamados Críticos\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1F3A5F'\"}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"28D\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 110.00,
+          "width": 290.00,
+          "x": 950.00,
+          "y": 95.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"v007\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":220,\"z\":6000,\"width\":760,\"height\":240}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Calendario.Mês\",\"active\":true}],\"Y\":[{\"queryRef\":\"chamados.Total de Chamados\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t0\",\"Entity\":\"Calendario\",\"Type\":0},{\"Name\":\"t1\",\"Entity\":\"chamados\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"Mês\"},\"Name\":\"Calendario.Mês\",\"NativeReferenceName\":\"Mês\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t1\"}},\"Property\":\"Total de Chamados\"},\"Name\":\"chamados.Total de Chamados\",\"NativeReferenceName\":\"Total de Chamados\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"Mês\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"defaultColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#2E75B6'\"}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Chamados por mês'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1F3A5F'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 760.00,
+          "x": 20.00,
+          "y": 220.00,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"v008\",\"layouts\":[{\"id\":0,\"position\":{\"x\":800,\"y\":220,\"z\":7000,\"width\":220,\"height\":240}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"pops.regiao\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t0\",\"Entity\":\"pops\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"regiao\"},\"Name\":\"pops.regiao\",\"NativeReferenceName\":\"regiao\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Região'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1F3A5F'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 220.00,
+          "x": 800.00,
+          "y": 220.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"v009\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1040,\"y\":220,\"z\":8000,\"width\":220,\"height\":240}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"clientes.segmento\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t0\",\"Entity\":\"clientes\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"segmento\"},\"Name\":\"clientes.segmento\",\"NativeReferenceName\":\"segmento\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Segmento do cliente'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1F3A5F'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 220.00,
+          "x": 1040.00,
+          "y": 220.00,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"v010\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":475,\"z\":9000,\"width\":760,\"height\":235}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"chamados.tipo_falha\",\"active\":true}],\"Y\":[{\"queryRef\":\"chamados.Total de Chamados\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t0\",\"Entity\":\"chamados\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"tipo_falha\"},\"Name\":\"chamados.tipo_falha\",\"NativeReferenceName\":\"tipo_falha\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"Total de Chamados\"},\"Name\":\"chamados.Total de Chamados\",\"NativeReferenceName\":\"Total de Chamados\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"Total de Chamados\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"defaultColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#2E75B6'\"}}}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Chamados por tipo de falha'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1F3A5F'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 235.00,
+          "width": 760.00,
+          "x": 20.00,
+          "y": 475.00,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"v011\",\"layouts\":[{\"id\":0,\"position\":{\"x\":800,\"y\":475,\"z\":10000,\"width\":460,\"height\":235}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Category\":[{\"queryRef\":\"chamados.prioridade\",\"active\":true}],\"Y\":[{\"queryRef\":\"chamados.Total de Chamados\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t0\",\"Entity\":\"chamados\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"prioridade\"},\"Name\":\"chamados.prioridade\",\"NativeReferenceName\":\"prioridade\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"Total de Chamados\"},\"Name\":\"chamados.Total de Chamados\",\"NativeReferenceName\":\"Total de Chamados\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Chamados por prioridade'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1F3A5F'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 235.00,
+          "width": 460.00,
+          "x": 800.00,
+          "y": 475.00,
+          "z": 10000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "SLA e atendimento",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection2",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"v012\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":10,\"z\":0,\"width\":1240,\"height\":50}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Só 4 em cada 10 chamados críticos são resolvidos no prazo\",\"textStyle\":{\"fontSize\":\"22pt\",\"color\":\"#1F3A5F\",\"fontWeight\":\"bold\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 50.00,
+          "width": 1240.00,
+          "x": 20.00,
+          "y": 10.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"v013\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":55,\"z\":1000,\"width\":1240,\"height\":30}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Cumprimento do SLA (prazo máximo de atendimento) por prioridade, segmento e técnico\",\"textStyle\":{\"fontSize\":\"11pt\",\"color\":\"#56656E\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 30.00,
+          "width": 1240.00,
+          "x": 20.00,
+          "y": 55.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"v014\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":95,\"z\":2000,\"width\":620,\"height\":300}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"chamados.prioridade\",\"active\":true}],\"Y\":[{\"queryRef\":\"chamados.% SLA Cumprido\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t0\",\"Entity\":\"chamados\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"prioridade\"},\"Name\":\"chamados.prioridade\",\"NativeReferenceName\":\"prioridade\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"% SLA Cumprido\"},\"Name\":\"chamados.% SLA Cumprido\",\"NativeReferenceName\":\"% SLA Cumprido\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"% SLA Cumprido\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"defaultColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#C2410C'\"}}}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'% de chamados resolvidos no prazo, por prioridade'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1F3A5F'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 300.00,
+          "width": 620.00,
+          "x": 20.00,
+          "y": 95.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"v015\",\"layouts\":[{\"id\":0,\"position\":{\"x\":660,\"y\":95,\"z\":3000,\"width\":600,\"height\":300}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"clientes.segmento\",\"active\":true}],\"Y\":[{\"queryRef\":\"chamados.% SLA Cumprido\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t0\",\"Entity\":\"clientes\",\"Type\":0},{\"Name\":\"t1\",\"Entity\":\"chamados\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"segmento\"},\"Name\":\"clientes.segmento\",\"NativeReferenceName\":\"segmento\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t1\"}},\"Property\":\"% SLA Cumprido\"},\"Name\":\"chamados.% SLA Cumprido\",\"NativeReferenceName\":\"% SLA Cumprido\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"defaultColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#2E75B6'\"}}}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Clientes empresariais têm o pior SLA'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1F3A5F'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 300.00,
+          "width": 600.00,
+          "x": 660.00,
+          "y": 95.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"v016\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":410,\"z\":4000,\"width\":760,\"height\":300}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"tecnicos.nome\"},{\"queryRef\":\"tecnicos.nivel\"},{\"queryRef\":\"tecnicos.equipe\"},{\"queryRef\":\"chamados.Chamados Encerrados\"},{\"queryRef\":\"chamados.Tempo Médio de Reparo (h)\"},{\"queryRef\":\"chamados.% SLA Cumprido\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t0\",\"Entity\":\"tecnicos\",\"Type\":0},{\"Name\":\"t1\",\"Entity\":\"chamados\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"nome\"},\"Name\":\"tecnicos.nome\",\"NativeReferenceName\":\"nome\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"nivel\"},\"Name\":\"tecnicos.nivel\",\"NativeReferenceName\":\"nivel\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"equipe\"},\"Name\":\"tecnicos.equipe\",\"NativeReferenceName\":\"equipe\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t1\"}},\"Property\":\"Chamados Encerrados\"},\"Name\":\"chamados.Chamados Encerrados\",\"NativeReferenceName\":\"Chamados Encerrados\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t1\"}},\"Property\":\"Tempo Médio de Reparo (h)\"},\"Name\":\"chamados.Tempo Médio de Reparo (h)\",\"NativeReferenceName\":\"Tempo Médio de Reparo (h)\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t1\"}},\"Property\":\"% SLA Cumprido\"},\"Name\":\"chamados.% SLA Cumprido\",\"NativeReferenceName\":\"% SLA Cumprido\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t1\"}},\"Property\":\"% SLA Cumprido\"}}}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Desempenho por técnico'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1F3A5F'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 300.00,
+          "width": 760.00,
+          "x": 20.00,
+          "y": 410.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"v017\",\"layouts\":[{\"id\":0,\"position\":{\"x\":800,\"y\":410,\"z\":5000,\"width\":460,\"height\":300}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"tecnicos.nivel\",\"active\":true}],\"Y\":[{\"queryRef\":\"chamados.Tempo Reparo Rompimento (h)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t0\",\"Entity\":\"tecnicos\",\"Type\":0},{\"Name\":\"t1\",\"Entity\":\"chamados\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"nivel\"},\"Name\":\"tecnicos.nivel\",\"NativeReferenceName\":\"nivel\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t1\"}},\"Property\":\"Tempo Reparo Rompimento (h)\"},\"Name\":\"chamados.Tempo Reparo Rompimento (h)\",\"NativeReferenceName\":\"Tempo Reparo Rompimento (h)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t1\"}},\"Property\":\"Tempo Reparo Rompimento (h)\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"defaultColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1F3A5F'\"}}}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Horas para reparar um rompimento, por nível do técnico'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1F3A5F'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 300.00,
+          "width": 460.00,
+          "x": 800.00,
+          "y": 410.00,
+          "z": 5000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Rede e causas",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection3",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"v018\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":10,\"z\":0,\"width\":1240,\"height\":50}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Onde, quando e por que a rede falha\",\"textStyle\":{\"fontSize\":\"22pt\",\"color\":\"#1F3A5F\",\"fontWeight\":\"bold\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 50.00,
+          "width": 1240.00,
+          "x": 20.00,
+          "y": 10.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"v019\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":55,\"z\":1000,\"width\":1240,\"height\":30}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Falhas de equipamento por POP, efeito da chuva, furtos por região e turno e causas registradas\",\"textStyle\":{\"fontSize\":\"11pt\",\"color\":\"#56656E\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 30.00,
+          "width": 1240.00,
+          "x": 20.00,
+          "y": 55.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"v020\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":95,\"z\":2000,\"width\":620,\"height\":300}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"pops.nome_pop\",\"active\":true}],\"Y\":[{\"queryRef\":\"chamados.Falhas de Equipamento\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t0\",\"Entity\":\"pops\",\"Type\":0},{\"Name\":\"t1\",\"Entity\":\"chamados\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"nome_pop\"},\"Name\":\"pops.nome_pop\",\"NativeReferenceName\":\"nome_pop\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t1\"}},\"Property\":\"Falhas de Equipamento\"},\"Name\":\"chamados.Falhas de Equipamento\",\"NativeReferenceName\":\"Falhas de Equipamento\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t1\"}},\"Property\":\"Falhas de Equipamento\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"defaultColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#C2410C'\"}}}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'O POP-MRQ-02 (2009) tem o dobro de falhas de equipamento'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1F3A5F'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 300.00,
+          "width": 620.00,
+          "x": 20.00,
+          "y": 95.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"v021\",\"layouts\":[{\"id\":0,\"position\":{\"x\":660,\"y\":95,\"z\":3000,\"width\":600,\"height\":300}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Calendario.Época\",\"active\":true}],\"Y\":[{\"queryRef\":\"chamados.Rompimentos por Mês\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t0\",\"Entity\":\"Calendario\",\"Type\":0},{\"Name\":\"t1\",\"Entity\":\"chamados\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"Época\"},\"Name\":\"Calendario.Época\",\"NativeReferenceName\":\"Época\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t1\"}},\"Property\":\"Rompimentos por Mês\"},\"Name\":\"chamados.Rompimentos por Mês\",\"NativeReferenceName\":\"Rompimentos por Mês\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"defaultColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#2E75B6'\"}}}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Rompimentos de fibra por mês: chuvas x seca'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1F3A5F'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 300.00,
+          "width": 600.00,
+          "x": 660.00,
+          "y": 95.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"v022\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":410,\"z\":4000,\"width\":620,\"height\":300}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"pops.regiao\",\"active\":true}],\"Columns\":[{\"queryRef\":\"chamados.turno\",\"active\":true}],\"Values\":[{\"queryRef\":\"chamados.Furtos e Vandalismo\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t0\",\"Entity\":\"pops\",\"Type\":0},{\"Name\":\"t1\",\"Entity\":\"chamados\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"regiao\"},\"Name\":\"pops.regiao\",\"NativeReferenceName\":\"regiao\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t1\"}},\"Property\":\"turno\"},\"Name\":\"chamados.turno\",\"NativeReferenceName\":\"turno\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t1\"}},\"Property\":\"Furtos e Vandalismo\"},\"Name\":\"chamados.Furtos e Vandalismo\",\"NativeReferenceName\":\"Furtos e Vandalismo\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Furtos e vandalismo de cabo por região e turno'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1F3A5F'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 300.00,
+          "width": 620.00,
+          "x": 20.00,
+          "y": 410.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"v023\",\"layouts\":[{\"id\":0,\"position\":{\"x\":660,\"y\":410,\"z\":5000,\"width\":600,\"height\":300}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"chamados.causa_raiz\",\"active\":true}],\"Y\":[{\"queryRef\":\"chamados.Total de Chamados\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t0\",\"Entity\":\"chamados\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"causa_raiz\"},\"Name\":\"chamados.causa_raiz\",\"NativeReferenceName\":\"causa_raiz\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"Total de Chamados\"},\"Name\":\"chamados.Total de Chamados\",\"NativeReferenceName\":\"Total de Chamados\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t0\"}},\"Property\":\"Total de Chamados\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"defaultColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1F3A5F'\"}}}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Principais causas registradas'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1F3A5F'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 300.00,
+          "width": 600.00,
+          "x": 660.00,
+          "y": 410.00,
+          "z": 5000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
