@@ -1,0 +1,31 @@
+{
+  "name": "TemaChamados",
+  "dataColors": [
+    "#2E75B6",
+    "#1F3A5F",
+    "#9CC3E6",
+    "#C2410C",
+    "#0E7C86",
+    "#8A99A3",
+    "#E8B500",
+    "#56656E"
+  ],
+  "foreground": "#14232E",
+  "background": "#FFFFFF",
+  "tableAccent": "#2E75B6",
+  "good": "#0E7C86",
+  "bad": "#C2410C",
+  "neutral": "#E8B500",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 12,
+      "color": "#1F3A5F"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#14232E"
+    }
+  }
+}
