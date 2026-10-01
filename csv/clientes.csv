@@ -1,0 +1,401 @@
+﻿id_cliente,nome_cliente,segmento,plano,cidade,valor_mensal
+1,Serra Contabilidade 001,Empresarial,Dedicado 1 Gbps,Mairinque,1590.0
+2,Prime Tecnologia 002,Empresarial,Dedicado 1 Gbps,Itu,890.0
+3,Orion Clínica 003,Empresarial,Dedicado 500 Mbps,Cotia,1590.0
+4,Vale Escola 004,Empresarial,Dedicado 200 Mbps,Alumínio,890.0
+5,Sol Escola 005,Empresarial,Dedicado 500 Mbps,Votorantim,890.0
+6,Prime Escola 006,Empresarial,Dedicado 200 Mbps,São Roque,1590.0
+7,Alfa Hospital 007,Empresarial,Dedicado 1 Gbps,Ibiúna,890.0
+8,Nova Contabilidade 008,Empresarial,Dedicado 500 Mbps,Sorocaba,1590.0
+9,Sol Metalúrgica 009,Empresarial,Dedicado 1 Gbps,Votorantim,890.0
+10,Rio Escola 010,Empresarial,Dedicado 500 Mbps,Vargem Grande Paulista,2490.0
+11,Vale Escola 011,Empresarial,Dedicado 200 Mbps,Ibiúna,1590.0
+12,Serra Logística 012,Empresarial,Dedicado 200 Mbps,Cotia,890.0
+13,Orion Escola 013,Empresarial,Dedicado 200 Mbps,Votorantim,2490.0
+14,Mega Transportes 014,Empresarial,Dedicado 500 Mbps,São Roque,890.0
+15,Max Escola 015,Empresarial,Dedicado 1 Gbps,Ibiúna,2490.0
+16,Delta Escola 016,Empresarial,Dedicado 200 Mbps,Mairinque,1590.0
+17,Prime Supermercados 017,Empresarial,Dedicado 200 Mbps,São Roque,890.0
+18,Prime Supermercados 018,Empresarial,Dedicado 500 Mbps,Araçariguama,1590.0
+19,Nova Clínica 019,Empresarial,Dedicado 500 Mbps,Sorocaba,890.0
+20,Delta Tecnologia 020,Empresarial,Dedicado 500 Mbps,Vargem Grande Paulista,2490.0
+21,Beta Tecnologia 021,Empresarial,Dedicado 1 Gbps,Mairinque,2490.0
+22,Prime Tecnologia 022,Empresarial,Dedicado 1 Gbps,São Roque,2490.0
+23,Alfa Escola 023,Empresarial,Dedicado 1 Gbps,Itu,2490.0
+24,Alfa Transportes 024,Empresarial,Dedicado 500 Mbps,Ibiúna,890.0
+25,Rio Indústria 025,Empresarial,Dedicado 500 Mbps,Sorocaba,1590.0
+26,Delta Supermercados 026,Empresarial,Dedicado 200 Mbps,Votorantim,2490.0
+27,Prime Tecnologia 027,Empresarial,Dedicado 1 Gbps,Mairinque,890.0
+28,Sol Logística 028,Empresarial,Dedicado 500 Mbps,Votorantim,2490.0
+29,Mega Tecnologia 029,Empresarial,Dedicado 200 Mbps,Votorantim,2490.0
+30,Sol Clínica 030,Empresarial,Dedicado 200 Mbps,Araçariguama,1590.0
+31,Mega Indústria 031,Empresarial,Dedicado 1 Gbps,Mairinque,1590.0
+32,Mega Supermercados 032,Empresarial,Dedicado 1 Gbps,Mairinque,2490.0
+33,Sol Transportes 033,Empresarial,Dedicado 500 Mbps,Itu,1590.0
+34,Prime Logística 034,Empresarial,Dedicado 500 Mbps,Vargem Grande Paulista,1590.0
+35,Rio Indústria 035,Empresarial,Dedicado 200 Mbps,Ibiúna,2490.0
+36,Prime Supermercados 036,Empresarial,Dedicado 1 Gbps,Sorocaba,1590.0
+37,Orion Contabilidade 037,Empresarial,Dedicado 500 Mbps,São Roque,2490.0
+38,Rio Tecnologia 038,Empresarial,Dedicado 500 Mbps,Vargem Grande Paulista,890.0
+39,Max Supermercados 039,Empresarial,Dedicado 200 Mbps,Cotia,2490.0
+40,Prime Logística 040,Empresarial,Dedicado 1 Gbps,Cotia,1590.0
+41,Prime Transportes 041,Empresarial,Dedicado 1 Gbps,Itu,1590.0
+42,Rio Metalúrgica 042,Empresarial,Dedicado 200 Mbps,Ibiúna,890.0
+43,Rio Clínica 043,Empresarial,Dedicado 500 Mbps,Itu,890.0
+44,Nova Escola 044,Empresarial,Dedicado 500 Mbps,São Roque,890.0
+45,Orion Transportes 045,Empresarial,Dedicado 200 Mbps,Araçariguama,1590.0
+46,Max Indústria 046,Empresarial,Dedicado 500 Mbps,Itu,1590.0
+47,Beta Metalúrgica 047,Empresarial,Dedicado 1 Gbps,Sorocaba,1590.0
+48,Orion Hospital 048,Empresarial,Dedicado 1 Gbps,Ibiúna,2490.0
+49,Sol Supermercados 049,Empresarial,Dedicado 500 Mbps,Mairinque,2490.0
+50,Prime Logística 050,Empresarial,Dedicado 200 Mbps,Araçariguama,1590.0
+51,Alfa Contabilidade 051,Empresarial,Dedicado 1 Gbps,Ibiúna,2490.0
+52,Max Metalúrgica 052,Empresarial,Dedicado 1 Gbps,Itu,2490.0
+53,Prime Escola 053,Empresarial,Dedicado 1 Gbps,Araçariguama,2490.0
+54,Mega Transportes 054,Empresarial,Dedicado 500 Mbps,Itu,2490.0
+55,Beta Hospital 055,Empresarial,Dedicado 500 Mbps,Sorocaba,890.0
+56,Vale Logística 056,Empresarial,Dedicado 1 Gbps,Alumínio,1590.0
+57,Rio Logística 057,Empresarial,Dedicado 500 Mbps,Vargem Grande Paulista,2490.0
+58,Serra Supermercados 058,Empresarial,Dedicado 1 Gbps,Itu,2490.0
+59,Serra Contabilidade 059,Empresarial,Dedicado 200 Mbps,Ibiúna,890.0
+60,Orion Contabilidade 060,Empresarial,Dedicado 1 Gbps,São Roque,890.0
+61,Prime Metalúrgica 061,Empresarial,Dedicado 1 Gbps,Cotia,890.0
+62,Prime Escola 062,Empresarial,Dedicado 200 Mbps,Vargem Grande Paulista,2490.0
+63,Nova Transportes 063,Empresarial,Dedicado 1 Gbps,Araçariguama,890.0
+64,Prime Transportes 064,Empresarial,Dedicado 500 Mbps,Araçariguama,1590.0
+65,Max Logística 065,Empresarial,Dedicado 1 Gbps,Araçariguama,1590.0
+66,Prime Contabilidade 066,Empresarial,Dedicado 1 Gbps,Sorocaba,890.0
+67,Alfa Escola 067,Empresarial,Dedicado 200 Mbps,Votorantim,1590.0
+68,Sol Logística 068,Empresarial,Dedicado 500 Mbps,Votorantim,1590.0
+69,Sol Metalúrgica 069,Empresarial,Dedicado 200 Mbps,Vargem Grande Paulista,2490.0
+70,Vale Transportes 070,Empresarial,Dedicado 200 Mbps,Vargem Grande Paulista,890.0
+71,Alfa Hospital 071,Empresarial,Dedicado 200 Mbps,Itu,890.0
+72,Mega Indústria 072,Empresarial,Dedicado 200 Mbps,Sorocaba,1590.0
+73,Vale Hospital 073,Empresarial,Dedicado 200 Mbps,São Roque,890.0
+74,Delta Supermercados 074,Empresarial,Dedicado 1 Gbps,Alumínio,2490.0
+75,Nova Hospital 075,Empresarial,Dedicado 200 Mbps,Votorantim,1590.0
+76,Alfa Logística 076,Empresarial,Dedicado 1 Gbps,Itu,1590.0
+77,Vale Tecnologia 077,Empresarial,Dedicado 500 Mbps,Alumínio,1590.0
+78,Nova Metalúrgica 078,Empresarial,Dedicado 500 Mbps,Araçariguama,1590.0
+79,Beta Indústria 079,Empresarial,Dedicado 200 Mbps,Sorocaba,1590.0
+80,Serra Escola 080,Empresarial,Dedicado 1 Gbps,Cotia,1590.0
+81,Beta Tecnologia 081,Empresarial,Dedicado 1 Gbps,Votorantim,1590.0
+82,Delta Indústria 082,Empresarial,Dedicado 1 Gbps,Ibiúna,2490.0
+83,Mega Transportes 083,Empresarial,Dedicado 500 Mbps,Alumínio,1590.0
+84,Serra Contabilidade 084,Empresarial,Dedicado 500 Mbps,Itu,1590.0
+85,Max Indústria 085,Empresarial,Dedicado 200 Mbps,Alumínio,1590.0
+86,Serra Indústria 086,Empresarial,Dedicado 200 Mbps,Ibiúna,2490.0
+87,Delta Tecnologia 087,Empresarial,Dedicado 1 Gbps,Vargem Grande Paulista,1590.0
+88,Beta Supermercados 088,Empresarial,Dedicado 1 Gbps,Votorantim,2490.0
+89,Prime Logística 089,Empresarial,Dedicado 200 Mbps,Sorocaba,2490.0
+90,Nova Contabilidade 090,Empresarial,Dedicado 200 Mbps,Alumínio,2490.0
+91,Prime Metalúrgica 091,Empresarial,Dedicado 1 Gbps,Mairinque,890.0
+92,Sol Transportes 092,Empresarial,Dedicado 200 Mbps,Alumínio,2490.0
+93,Alfa Tecnologia 093,Empresarial,Dedicado 500 Mbps,Ibiúna,890.0
+94,Rio Logística 094,Empresarial,Dedicado 200 Mbps,Sorocaba,890.0
+95,Nova Escola 095,Empresarial,Dedicado 500 Mbps,Votorantim,890.0
+96,Sol Transportes 096,Empresarial,Dedicado 1 Gbps,Alumínio,890.0
+97,Nova Logística 097,Empresarial,Dedicado 200 Mbps,Votorantim,890.0
+98,Rio Logística 098,Empresarial,Dedicado 1 Gbps,São Roque,2490.0
+99,Rio Tecnologia 099,Empresarial,Dedicado 200 Mbps,Vargem Grande Paulista,890.0
+100,Serra Contabilidade 100,Empresarial,Dedicado 500 Mbps,Mairinque,2490.0
+101,Sol Metalúrgica 101,Empresarial,Dedicado 200 Mbps,São Roque,2490.0
+102,Vale Escola 102,Empresarial,Dedicado 200 Mbps,Vargem Grande Paulista,890.0
+103,Serra Metalúrgica 103,Empresarial,Dedicado 200 Mbps,Mairinque,890.0
+104,Delta Tecnologia 104,Empresarial,Dedicado 200 Mbps,Mairinque,890.0
+105,Prime Tecnologia 105,Empresarial,Dedicado 1 Gbps,Araçariguama,1590.0
+106,Mega Supermercados 106,Empresarial,Dedicado 500 Mbps,Araçariguama,1590.0
+107,Prime Tecnologia 107,Empresarial,Dedicado 1 Gbps,Ibiúna,1590.0
+108,Max Transportes 108,Empresarial,Dedicado 500 Mbps,Mairinque,2490.0
+109,Prime Metalúrgica 109,Empresarial,Dedicado 1 Gbps,Mairinque,1590.0
+110,Max Tecnologia 110,Empresarial,Dedicado 200 Mbps,Votorantim,1590.0
+111,Delta Logística 111,Empresarial,Dedicado 200 Mbps,Ibiúna,1590.0
+112,Nova Hospital 112,Empresarial,Dedicado 1 Gbps,Sorocaba,2490.0
+113,Rio Supermercados 113,Empresarial,Dedicado 200 Mbps,Votorantim,1590.0
+114,Alfa Supermercados 114,Empresarial,Dedicado 1 Gbps,São Roque,890.0
+115,Orion Contabilidade 115,Empresarial,Dedicado 500 Mbps,Cotia,890.0
+116,Delta Metalúrgica 116,Empresarial,Dedicado 1 Gbps,Itu,2490.0
+117,Mega Contabilidade 117,Empresarial,Dedicado 500 Mbps,Ibiúna,2490.0
+118,Beta Supermercados 118,Empresarial,Dedicado 200 Mbps,Mairinque,890.0
+119,Prime Supermercados 119,Empresarial,Dedicado 200 Mbps,Cotia,890.0
+120,Rio Metalúrgica 120,Empresarial,Dedicado 200 Mbps,Itu,1590.0
+121,Condomínio/Residencial 121,Residencial,Fibra 600 Mbps,Ibiúna,149.9
+122,Condomínio/Residencial 122,Residencial,Fibra 300 Mbps,Cotia,119.9
+123,Condomínio/Residencial 123,Residencial,Fibra 300 Mbps,Ibiúna,149.9
+124,Condomínio/Residencial 124,Residencial,Fibra 600 Mbps,Ibiúna,119.9
+125,Condomínio/Residencial 125,Residencial,Fibra 600 Mbps,Araçariguama,99.9
+126,Condomínio/Residencial 126,Residencial,Fibra 600 Mbps,Cotia,99.9
+127,Condomínio/Residencial 127,Residencial,Fibra 300 Mbps,Vargem Grande Paulista,119.9
+128,Condomínio/Residencial 128,Residencial,Fibra 300 Mbps,Vargem Grande Paulista,99.9
+129,Condomínio/Residencial 129,Residencial,Fibra 600 Mbps,Mairinque,149.9
+130,Condomínio/Residencial 130,Residencial,Fibra 600 Mbps,Araçariguama,99.9
+131,Condomínio/Residencial 131,Residencial,Fibra 600 Mbps,Votorantim,119.9
+132,Condomínio/Residencial 132,Residencial,Fibra 300 Mbps,Mairinque,99.9
+133,Condomínio/Residencial 133,Residencial,Fibra 300 Mbps,Mairinque,149.9
+134,Condomínio/Residencial 134,Residencial,Fibra 600 Mbps,São Roque,119.9
+135,Condomínio/Residencial 135,Residencial,Fibra 600 Mbps,São Roque,119.9
+136,Condomínio/Residencial 136,Residencial,Fibra 600 Mbps,Alumínio,119.9
+137,Condomínio/Residencial 137,Residencial,Fibra 600 Mbps,Alumínio,119.9
+138,Condomínio/Residencial 138,Residencial,Fibra 1 Gbps,Itu,149.9
+139,Condomínio/Residencial 139,Residencial,Fibra 300 Mbps,Araçariguama,119.9
+140,Condomínio/Residencial 140,Residencial,Fibra 600 Mbps,Vargem Grande Paulista,119.9
+141,Condomínio/Residencial 141,Residencial,Fibra 1 Gbps,Cotia,149.9
+142,Condomínio/Residencial 142,Residencial,Fibra 600 Mbps,Vargem Grande Paulista,99.9
+143,Condomínio/Residencial 143,Residencial,Fibra 1 Gbps,Ibiúna,99.9
+144,Condomínio/Residencial 144,Residencial,Fibra 600 Mbps,Cotia,149.9
+145,Condomínio/Residencial 145,Residencial,Fibra 1 Gbps,Vargem Grande Paulista,149.9
+146,Condomínio/Residencial 146,Residencial,Fibra 600 Mbps,Cotia,99.9
+147,Condomínio/Residencial 147,Residencial,Fibra 600 Mbps,Alumínio,149.9
+148,Condomínio/Residencial 148,Residencial,Fibra 600 Mbps,São Roque,99.9
+149,Condomínio/Residencial 149,Residencial,Fibra 1 Gbps,Sorocaba,149.9
+150,Condomínio/Residencial 150,Residencial,Fibra 600 Mbps,Sorocaba,119.9
+151,Condomínio/Residencial 151,Residencial,Fibra 300 Mbps,Alumínio,119.9
+152,Condomínio/Residencial 152,Residencial,Fibra 1 Gbps,Votorantim,119.9
+153,Condomínio/Residencial 153,Residencial,Fibra 600 Mbps,Araçariguama,149.9
+154,Condomínio/Residencial 154,Residencial,Fibra 600 Mbps,Votorantim,149.9
+155,Condomínio/Residencial 155,Residencial,Fibra 600 Mbps,Itu,149.9
+156,Condomínio/Residencial 156,Residencial,Fibra 300 Mbps,Alumínio,119.9
+157,Condomínio/Residencial 157,Residencial,Fibra 600 Mbps,Itu,99.9
+158,Condomínio/Residencial 158,Residencial,Fibra 600 Mbps,Alumínio,119.9
+159,Condomínio/Residencial 159,Residencial,Fibra 1 Gbps,Ibiúna,119.9
+160,Condomínio/Residencial 160,Residencial,Fibra 600 Mbps,São Roque,149.9
+161,Condomínio/Residencial 161,Residencial,Fibra 300 Mbps,Ibiúna,119.9
+162,Condomínio/Residencial 162,Residencial,Fibra 300 Mbps,São Roque,99.9
+163,Condomínio/Residencial 163,Residencial,Fibra 300 Mbps,Alumínio,149.9
+164,Condomínio/Residencial 164,Residencial,Fibra 600 Mbps,Vargem Grande Paulista,119.9
+165,Condomínio/Residencial 165,Residencial,Fibra 1 Gbps,Ibiúna,99.9
+166,Condomínio/Residencial 166,Residencial,Fibra 600 Mbps,Araçariguama,99.9
+167,Condomínio/Residencial 167,Residencial,Fibra 600 Mbps,São Roque,119.9
+168,Condomínio/Residencial 168,Residencial,Fibra 600 Mbps,São Roque,99.9
+169,Condomínio/Residencial 169,Residencial,Fibra 300 Mbps,Itu,99.9
+170,Condomínio/Residencial 170,Residencial,Fibra 600 Mbps,Alumínio,119.9
+171,Condomínio/Residencial 171,Residencial,Fibra 1 Gbps,Ibiúna,149.9
+172,Condomínio/Residencial 172,Residencial,Fibra 300 Mbps,Vargem Grande Paulista,99.9
+173,Condomínio/Residencial 173,Residencial,Fibra 1 Gbps,Itu,149.9
+174,Condomínio/Residencial 174,Residencial,Fibra 300 Mbps,São Roque,119.9
+175,Condomínio/Residencial 175,Residencial,Fibra 1 Gbps,Mairinque,99.9
+176,Condomínio/Residencial 176,Residencial,Fibra 600 Mbps,Araçariguama,119.9
+177,Condomínio/Residencial 177,Residencial,Fibra 600 Mbps,Sorocaba,119.9
+178,Condomínio/Residencial 178,Residencial,Fibra 600 Mbps,Araçariguama,119.9
+179,Condomínio/Residencial 179,Residencial,Fibra 600 Mbps,Cotia,99.9
+180,Condomínio/Residencial 180,Residencial,Fibra 1 Gbps,Alumínio,149.9
+181,Condomínio/Residencial 181,Residencial,Fibra 600 Mbps,Araçariguama,99.9
+182,Condomínio/Residencial 182,Residencial,Fibra 600 Mbps,Itu,119.9
+183,Condomínio/Residencial 183,Residencial,Fibra 1 Gbps,Vargem Grande Paulista,99.9
+184,Condomínio/Residencial 184,Residencial,Fibra 600 Mbps,Alumínio,149.9
+185,Condomínio/Residencial 185,Residencial,Fibra 1 Gbps,Ibiúna,119.9
+186,Condomínio/Residencial 186,Residencial,Fibra 300 Mbps,Cotia,119.9
+187,Condomínio/Residencial 187,Residencial,Fibra 1 Gbps,Alumínio,99.9
+188,Condomínio/Residencial 188,Residencial,Fibra 600 Mbps,Cotia,99.9
+189,Condomínio/Residencial 189,Residencial,Fibra 600 Mbps,Vargem Grande Paulista,119.9
+190,Condomínio/Residencial 190,Residencial,Fibra 1 Gbps,Alumínio,119.9
+191,Condomínio/Residencial 191,Residencial,Fibra 600 Mbps,Sorocaba,119.9
+192,Condomínio/Residencial 192,Residencial,Fibra 600 Mbps,São Roque,99.9
+193,Condomínio/Residencial 193,Residencial,Fibra 600 Mbps,Sorocaba,99.9
+194,Condomínio/Residencial 194,Residencial,Fibra 300 Mbps,Mairinque,99.9
+195,Condomínio/Residencial 195,Residencial,Fibra 300 Mbps,Ibiúna,149.9
+196,Condomínio/Residencial 196,Residencial,Fibra 300 Mbps,Cotia,99.9
+197,Condomínio/Residencial 197,Residencial,Fibra 300 Mbps,Alumínio,149.9
+198,Condomínio/Residencial 198,Residencial,Fibra 600 Mbps,Alumínio,149.9
+199,Condomínio/Residencial 199,Residencial,Fibra 600 Mbps,Mairinque,99.9
+200,Condomínio/Residencial 200,Residencial,Fibra 300 Mbps,São Roque,99.9
+201,Condomínio/Residencial 201,Residencial,Fibra 600 Mbps,São Roque,119.9
+202,Condomínio/Residencial 202,Residencial,Fibra 1 Gbps,Cotia,149.9
+203,Condomínio/Residencial 203,Residencial,Fibra 600 Mbps,Votorantim,149.9
+204,Condomínio/Residencial 204,Residencial,Fibra 600 Mbps,Araçariguama,99.9
+205,Condomínio/Residencial 205,Residencial,Fibra 300 Mbps,Cotia,119.9
+206,Condomínio/Residencial 206,Residencial,Fibra 600 Mbps,Votorantim,119.9
+207,Condomínio/Residencial 207,Residencial,Fibra 1 Gbps,Mairinque,119.9
+208,Condomínio/Residencial 208,Residencial,Fibra 600 Mbps,Cotia,119.9
+209,Condomínio/Residencial 209,Residencial,Fibra 600 Mbps,Cotia,149.9
+210,Condomínio/Residencial 210,Residencial,Fibra 600 Mbps,São Roque,119.9
+211,Condomínio/Residencial 211,Residencial,Fibra 1 Gbps,Ibiúna,119.9
+212,Condomínio/Residencial 212,Residencial,Fibra 300 Mbps,Sorocaba,149.9
+213,Condomínio/Residencial 213,Residencial,Fibra 600 Mbps,Sorocaba,149.9
+214,Condomínio/Residencial 214,Residencial,Fibra 600 Mbps,Vargem Grande Paulista,99.9
+215,Condomínio/Residencial 215,Residencial,Fibra 300 Mbps,Votorantim,99.9
+216,Condomínio/Residencial 216,Residencial,Fibra 600 Mbps,Sorocaba,99.9
+217,Condomínio/Residencial 217,Residencial,Fibra 1 Gbps,Votorantim,119.9
+218,Condomínio/Residencial 218,Residencial,Fibra 300 Mbps,Araçariguama,119.9
+219,Condomínio/Residencial 219,Residencial,Fibra 600 Mbps,Vargem Grande Paulista,149.9
+220,Condomínio/Residencial 220,Residencial,Fibra 600 Mbps,Ibiúna,119.9
+221,Condomínio/Residencial 221,Residencial,Fibra 300 Mbps,Vargem Grande Paulista,149.9
+222,Condomínio/Residencial 222,Residencial,Fibra 300 Mbps,Alumínio,149.9
+223,Condomínio/Residencial 223,Residencial,Fibra 300 Mbps,Araçariguama,99.9
+224,Condomínio/Residencial 224,Residencial,Fibra 300 Mbps,Mairinque,149.9
+225,Condomínio/Residencial 225,Residencial,Fibra 1 Gbps,Araçariguama,149.9
+226,Condomínio/Residencial 226,Residencial,Fibra 1 Gbps,Votorantim,149.9
+227,Condomínio/Residencial 227,Residencial,Fibra 600 Mbps,Araçariguama,119.9
+228,Condomínio/Residencial 228,Residencial,Fibra 300 Mbps,Votorantim,149.9
+229,Condomínio/Residencial 229,Residencial,Fibra 1 Gbps,Araçariguama,99.9
+230,Condomínio/Residencial 230,Residencial,Fibra 600 Mbps,Araçariguama,149.9
+231,Condomínio/Residencial 231,Residencial,Fibra 600 Mbps,Mairinque,99.9
+232,Condomínio/Residencial 232,Residencial,Fibra 300 Mbps,Votorantim,149.9
+233,Condomínio/Residencial 233,Residencial,Fibra 1 Gbps,Cotia,149.9
+234,Condomínio/Residencial 234,Residencial,Fibra 300 Mbps,Sorocaba,149.9
+235,Condomínio/Residencial 235,Residencial,Fibra 300 Mbps,Itu,149.9
+236,Condomínio/Residencial 236,Residencial,Fibra 600 Mbps,Votorantim,99.9
+237,Condomínio/Residencial 237,Residencial,Fibra 600 Mbps,Votorantim,149.9
+238,Condomínio/Residencial 238,Residencial,Fibra 600 Mbps,Cotia,119.9
+239,Condomínio/Residencial 239,Residencial,Fibra 300 Mbps,Alumínio,99.9
+240,Condomínio/Residencial 240,Residencial,Fibra 600 Mbps,Sorocaba,149.9
+241,Condomínio/Residencial 241,Residencial,Fibra 600 Mbps,Vargem Grande Paulista,149.9
+242,Condomínio/Residencial 242,Residencial,Fibra 300 Mbps,Itu,149.9
+243,Condomínio/Residencial 243,Residencial,Fibra 300 Mbps,Araçariguama,99.9
+244,Condomínio/Residencial 244,Residencial,Fibra 600 Mbps,Itu,119.9
+245,Condomínio/Residencial 245,Residencial,Fibra 600 Mbps,Alumínio,149.9
+246,Condomínio/Residencial 246,Residencial,Fibra 1 Gbps,Votorantim,99.9
+247,Condomínio/Residencial 247,Residencial,Fibra 300 Mbps,Mairinque,149.9
+248,Condomínio/Residencial 248,Residencial,Fibra 1 Gbps,Itu,99.9
+249,Condomínio/Residencial 249,Residencial,Fibra 600 Mbps,Mairinque,149.9
+250,Condomínio/Residencial 250,Residencial,Fibra 600 Mbps,Sorocaba,99.9
+251,Condomínio/Residencial 251,Residencial,Fibra 300 Mbps,Mairinque,149.9
+252,Condomínio/Residencial 252,Residencial,Fibra 600 Mbps,Alumínio,149.9
+253,Condomínio/Residencial 253,Residencial,Fibra 600 Mbps,Sorocaba,149.9
+254,Condomínio/Residencial 254,Residencial,Fibra 600 Mbps,Vargem Grande Paulista,99.9
+255,Condomínio/Residencial 255,Residencial,Fibra 1 Gbps,Mairinque,149.9
+256,Condomínio/Residencial 256,Residencial,Fibra 600 Mbps,Araçariguama,149.9
+257,Condomínio/Residencial 257,Residencial,Fibra 1 Gbps,Vargem Grande Paulista,99.9
+258,Condomínio/Residencial 258,Residencial,Fibra 300 Mbps,Votorantim,119.9
+259,Condomínio/Residencial 259,Residencial,Fibra 600 Mbps,Votorantim,149.9
+260,Condomínio/Residencial 260,Residencial,Fibra 600 Mbps,Cotia,119.9
+261,Condomínio/Residencial 261,Residencial,Fibra 600 Mbps,Vargem Grande Paulista,119.9
+262,Condomínio/Residencial 262,Residencial,Fibra 600 Mbps,Votorantim,149.9
+263,Condomínio/Residencial 263,Residencial,Fibra 1 Gbps,Vargem Grande Paulista,119.9
+264,Condomínio/Residencial 264,Residencial,Fibra 600 Mbps,Cotia,99.9
+265,Condomínio/Residencial 265,Residencial,Fibra 600 Mbps,Cotia,149.9
+266,Condomínio/Residencial 266,Residencial,Fibra 300 Mbps,Sorocaba,119.9
+267,Condomínio/Residencial 267,Residencial,Fibra 1 Gbps,Alumínio,149.9
+268,Condomínio/Residencial 268,Residencial,Fibra 300 Mbps,Araçariguama,99.9
+269,Condomínio/Residencial 269,Residencial,Fibra 600 Mbps,Cotia,119.9
+270,Condomínio/Residencial 270,Residencial,Fibra 300 Mbps,Araçariguama,149.9
+271,Condomínio/Residencial 271,Residencial,Fibra 300 Mbps,Alumínio,149.9
+272,Condomínio/Residencial 272,Residencial,Fibra 600 Mbps,Vargem Grande Paulista,119.9
+273,Condomínio/Residencial 273,Residencial,Fibra 600 Mbps,Alumínio,99.9
+274,Condomínio/Residencial 274,Residencial,Fibra 600 Mbps,Cotia,149.9
+275,Condomínio/Residencial 275,Residencial,Fibra 300 Mbps,Vargem Grande Paulista,119.9
+276,Condomínio/Residencial 276,Residencial,Fibra 300 Mbps,Araçariguama,119.9
+277,Condomínio/Residencial 277,Residencial,Fibra 600 Mbps,Mairinque,149.9
+278,Condomínio/Residencial 278,Residencial,Fibra 600 Mbps,Cotia,149.9
+279,Condomínio/Residencial 279,Residencial,Fibra 1 Gbps,Alumínio,119.9
+280,Condomínio/Residencial 280,Residencial,Fibra 600 Mbps,Alumínio,149.9
+281,Condomínio/Residencial 281,Residencial,Fibra 600 Mbps,Vargem Grande Paulista,99.9
+282,Condomínio/Residencial 282,Residencial,Fibra 1 Gbps,Araçariguama,149.9
+283,Condomínio/Residencial 283,Residencial,Fibra 300 Mbps,Cotia,119.9
+284,Condomínio/Residencial 284,Residencial,Fibra 600 Mbps,Votorantim,119.9
+285,Condomínio/Residencial 285,Residencial,Fibra 600 Mbps,Vargem Grande Paulista,99.9
+286,Condomínio/Residencial 286,Residencial,Fibra 300 Mbps,Vargem Grande Paulista,149.9
+287,Condomínio/Residencial 287,Residencial,Fibra 300 Mbps,Vargem Grande Paulista,99.9
+288,Condomínio/Residencial 288,Residencial,Fibra 600 Mbps,Votorantim,119.9
+289,Condomínio/Residencial 289,Residencial,Fibra 600 Mbps,Votorantim,149.9
+290,Condomínio/Residencial 290,Residencial,Fibra 1 Gbps,Vargem Grande Paulista,119.9
+291,Condomínio/Residencial 291,Residencial,Fibra 300 Mbps,Alumínio,119.9
+292,Condomínio/Residencial 292,Residencial,Fibra 600 Mbps,Vargem Grande Paulista,99.9
+293,Condomínio/Residencial 293,Residencial,Fibra 300 Mbps,Vargem Grande Paulista,119.9
+294,Condomínio/Residencial 294,Residencial,Fibra 600 Mbps,Araçariguama,99.9
+295,Condomínio/Residencial 295,Residencial,Fibra 1 Gbps,Ibiúna,119.9
+296,Condomínio/Residencial 296,Residencial,Fibra 600 Mbps,Ibiúna,99.9
+297,Condomínio/Residencial 297,Residencial,Fibra 1 Gbps,São Roque,119.9
+298,Condomínio/Residencial 298,Residencial,Fibra 600 Mbps,Alumínio,99.9
+299,Condomínio/Residencial 299,Residencial,Fibra 600 Mbps,Araçariguama,119.9
+300,Condomínio/Residencial 300,Residencial,Fibra 300 Mbps,Votorantim,119.9
+301,Condomínio/Residencial 301,Residencial,Fibra 600 Mbps,Cotia,99.9
+302,Condomínio/Residencial 302,Residencial,Fibra 300 Mbps,Itu,149.9
+303,Condomínio/Residencial 303,Residencial,Fibra 600 Mbps,São Roque,119.9
+304,Condomínio/Residencial 304,Residencial,Fibra 600 Mbps,Araçariguama,149.9
+305,Condomínio/Residencial 305,Residencial,Fibra 300 Mbps,Araçariguama,149.9
+306,Condomínio/Residencial 306,Residencial,Fibra 600 Mbps,Araçariguama,99.9
+307,Condomínio/Residencial 307,Residencial,Fibra 300 Mbps,Araçariguama,149.9
+308,Condomínio/Residencial 308,Residencial,Fibra 1 Gbps,Ibiúna,99.9
+309,Condomínio/Residencial 309,Residencial,Fibra 600 Mbps,Vargem Grande Paulista,99.9
+310,Condomínio/Residencial 310,Residencial,Fibra 600 Mbps,Alumínio,99.9
+311,Condomínio/Residencial 311,Residencial,Fibra 600 Mbps,Ibiúna,99.9
+312,Condomínio/Residencial 312,Residencial,Fibra 600 Mbps,Votorantim,99.9
+313,Condomínio/Residencial 313,Residencial,Fibra 300 Mbps,São Roque,149.9
+314,Condomínio/Residencial 314,Residencial,Fibra 300 Mbps,São Roque,119.9
+315,Condomínio/Residencial 315,Residencial,Fibra 600 Mbps,São Roque,99.9
+316,Condomínio/Residencial 316,Residencial,Fibra 600 Mbps,Araçariguama,99.9
+317,Condomínio/Residencial 317,Residencial,Fibra 1 Gbps,Araçariguama,99.9
+318,Condomínio/Residencial 318,Residencial,Fibra 600 Mbps,Cotia,149.9
+319,Condomínio/Residencial 319,Residencial,Fibra 300 Mbps,Vargem Grande Paulista,149.9
+320,Condomínio/Residencial 320,Residencial,Fibra 300 Mbps,Araçariguama,149.9
+321,Condomínio/Residencial 321,Residencial,Fibra 300 Mbps,Vargem Grande Paulista,149.9
+322,Condomínio/Residencial 322,Residencial,Fibra 600 Mbps,Itu,99.9
+323,Condomínio/Residencial 323,Residencial,Fibra 600 Mbps,Votorantim,119.9
+324,Condomínio/Residencial 324,Residencial,Fibra 1 Gbps,Itu,149.9
+325,Condomínio/Residencial 325,Residencial,Fibra 600 Mbps,Mairinque,149.9
+326,Condomínio/Residencial 326,Residencial,Fibra 600 Mbps,Alumínio,119.9
+327,Condomínio/Residencial 327,Residencial,Fibra 600 Mbps,Vargem Grande Paulista,149.9
+328,Condomínio/Residencial 328,Residencial,Fibra 600 Mbps,Cotia,149.9
+329,Condomínio/Residencial 329,Residencial,Fibra 1 Gbps,Araçariguama,119.9
+330,Condomínio/Residencial 330,Residencial,Fibra 600 Mbps,Itu,149.9
+331,Condomínio/Residencial 331,Residencial,Fibra 1 Gbps,Cotia,149.9
+332,Condomínio/Residencial 332,Residencial,Fibra 300 Mbps,Votorantim,99.9
+333,Condomínio/Residencial 333,Residencial,Fibra 1 Gbps,Itu,99.9
+334,Condomínio/Residencial 334,Residencial,Fibra 600 Mbps,Cotia,119.9
+335,Condomínio/Residencial 335,Residencial,Fibra 1 Gbps,São Roque,99.9
+336,Condomínio/Residencial 336,Residencial,Fibra 300 Mbps,Araçariguama,149.9
+337,Condomínio/Residencial 337,Residencial,Fibra 300 Mbps,Cotia,149.9
+338,Condomínio/Residencial 338,Residencial,Fibra 300 Mbps,Cotia,149.9
+339,Condomínio/Residencial 339,Residencial,Fibra 600 Mbps,Votorantim,119.9
+340,Condomínio/Residencial 340,Residencial,Fibra 600 Mbps,Vargem Grande Paulista,149.9
+341,Condomínio/Residencial 341,Residencial,Fibra 300 Mbps,Alumínio,119.9
+342,Condomínio/Residencial 342,Residencial,Fibra 600 Mbps,São Roque,149.9
+343,Condomínio/Residencial 343,Residencial,Fibra 300 Mbps,Vargem Grande Paulista,99.9
+344,Condomínio/Residencial 344,Residencial,Fibra 600 Mbps,Itu,149.9
+345,Condomínio/Residencial 345,Residencial,Fibra 600 Mbps,Alumínio,99.9
+346,Condomínio/Residencial 346,Residencial,Fibra 600 Mbps,Araçariguama,119.9
+347,Condomínio/Residencial 347,Residencial,Fibra 300 Mbps,Araçariguama,119.9
+348,Condomínio/Residencial 348,Residencial,Fibra 300 Mbps,Itu,119.9
+349,Condomínio/Residencial 349,Residencial,Fibra 600 Mbps,Cotia,99.9
+350,Condomínio/Residencial 350,Residencial,Fibra 300 Mbps,Alumínio,149.9
+351,Condomínio/Residencial 351,Residencial,Fibra 300 Mbps,Cotia,149.9
+352,Condomínio/Residencial 352,Residencial,Fibra 600 Mbps,São Roque,119.9
+353,Condomínio/Residencial 353,Residencial,Fibra 600 Mbps,São Roque,119.9
+354,Condomínio/Residencial 354,Residencial,Fibra 600 Mbps,Sorocaba,99.9
+355,Condomínio/Residencial 355,Residencial,Fibra 300 Mbps,Vargem Grande Paulista,149.9
+356,Condomínio/Residencial 356,Residencial,Fibra 300 Mbps,Ibiúna,149.9
+357,Condomínio/Residencial 357,Residencial,Fibra 600 Mbps,Alumínio,149.9
+358,Condomínio/Residencial 358,Residencial,Fibra 600 Mbps,Araçariguama,119.9
+359,Condomínio/Residencial 359,Residencial,Fibra 600 Mbps,Araçariguama,149.9
+360,Condomínio/Residencial 360,Residencial,Fibra 600 Mbps,Mairinque,99.9
+361,Condomínio/Residencial 361,Residencial,Fibra 300 Mbps,Araçariguama,99.9
+362,Condomínio/Residencial 362,Residencial,Fibra 300 Mbps,Vargem Grande Paulista,119.9
+363,Condomínio/Residencial 363,Residencial,Fibra 300 Mbps,Ibiúna,149.9
+364,Condomínio/Residencial 364,Residencial,Fibra 600 Mbps,Vargem Grande Paulista,119.9
+365,Condomínio/Residencial 365,Residencial,Fibra 1 Gbps,São Roque,99.9
+366,Condomínio/Residencial 366,Residencial,Fibra 300 Mbps,Araçariguama,149.9
+367,Condomínio/Residencial 367,Residencial,Fibra 300 Mbps,Alumínio,149.9
+368,Condomínio/Residencial 368,Residencial,Fibra 300 Mbps,Alumínio,119.9
+369,Condomínio/Residencial 369,Residencial,Fibra 300 Mbps,Mairinque,149.9
+370,Condomínio/Residencial 370,Residencial,Fibra 600 Mbps,São Roque,119.9
+371,Condomínio/Residencial 371,Residencial,Fibra 600 Mbps,Ibiúna,99.9
+372,Condomínio/Residencial 372,Residencial,Fibra 600 Mbps,Cotia,119.9
+373,Condomínio/Residencial 373,Residencial,Fibra 600 Mbps,Vargem Grande Paulista,99.9
+374,Condomínio/Residencial 374,Residencial,Fibra 600 Mbps,Ibiúna,119.9
+375,Condomínio/Residencial 375,Residencial,Fibra 1 Gbps,São Roque,99.9
+376,Condomínio/Residencial 376,Residencial,Fibra 1 Gbps,Cotia,99.9
+377,Condomínio/Residencial 377,Residencial,Fibra 600 Mbps,Itu,99.9
+378,Condomínio/Residencial 378,Residencial,Fibra 600 Mbps,Votorantim,149.9
+379,Condomínio/Residencial 379,Residencial,Fibra 1 Gbps,São Roque,149.9
+380,Condomínio/Residencial 380,Residencial,Fibra 300 Mbps,Itu,149.9
+381,Condomínio/Residencial 381,Residencial,Fibra 600 Mbps,Sorocaba,119.9
+382,Condomínio/Residencial 382,Residencial,Fibra 1 Gbps,Cotia,99.9
+383,Condomínio/Residencial 383,Residencial,Fibra 300 Mbps,Votorantim,119.9
+384,Condomínio/Residencial 384,Residencial,Fibra 600 Mbps,Sorocaba,99.9
+385,Condomínio/Residencial 385,Residencial,Fibra 600 Mbps,Ibiúna,99.9
+386,Condomínio/Residencial 386,Residencial,Fibra 300 Mbps,Cotia,119.9
+387,Condomínio/Residencial 387,Residencial,Fibra 600 Mbps,Ibiúna,149.9
+388,Condomínio/Residencial 388,Residencial,Fibra 600 Mbps,Itu,149.9
+389,Condomínio/Residencial 389,Residencial,Fibra 600 Mbps,Mairinque,149.9
+390,Condomínio/Residencial 390,Residencial,Fibra 1 Gbps,Araçariguama,119.9
+391,Condomínio/Residencial 391,Residencial,Fibra 1 Gbps,Araçariguama,99.9
+392,Condomínio/Residencial 392,Residencial,Fibra 600 Mbps,São Roque,149.9
+393,Condomínio/Residencial 393,Residencial,Fibra 600 Mbps,Araçariguama,119.9
+394,Condomínio/Residencial 394,Residencial,Fibra 1 Gbps,Itu,149.9
+395,Condomínio/Residencial 395,Residencial,Fibra 600 Mbps,Votorantim,149.9
+396,Condomínio/Residencial 396,Residencial,Fibra 300 Mbps,São Roque,119.9
+397,Condomínio/Residencial 397,Residencial,Fibra 600 Mbps,Alumínio,149.9
+398,Condomínio/Residencial 398,Residencial,Fibra 600 Mbps,Sorocaba,99.9
+399,Condomínio/Residencial 399,Residencial,Fibra 300 Mbps,Cotia,99.9
+400,Condomínio/Residencial 400,Residencial,Fibra 600 Mbps,Alumínio,149.9

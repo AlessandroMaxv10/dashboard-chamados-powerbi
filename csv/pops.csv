@@ -1,0 +1,17 @@
+﻿id_pop,nome_pop,cidade,regiao,ano_instalacao
+1,POP-SRQ-01,São Roque,Oeste,2022
+2,POP-SRQ-02,São Roque,Oeste,2014
+3,POP-MRQ-01,Mairinque,Oeste,2012
+4,POP-MRQ-02,Mairinque,Oeste,2009
+5,POP-ALU-01,Alumínio,Oeste,2016
+6,POP-IBI-01,Ibiúna,Oeste,2017
+7,POP-SOR-01,Sorocaba,Sorocaba,2012
+8,POP-SOR-02,Sorocaba,Sorocaba,2016
+9,POP-SOR-03,Sorocaba,Sorocaba,2019
+10,POP-VOT-01,Votorantim,Sorocaba,2016
+11,POP-ITU-01,Itu,Norte,2021
+12,POP-ITU-02,Itu,Norte,2021
+13,POP-ARA-01,Araçariguama,Norte,2020
+14,POP-COT-01,Cotia,Leste,2022
+15,POP-COT-02,Cotia,Leste,2020
+16,POP-VGP-01,Vargem Grande Paulista,Leste,2014
