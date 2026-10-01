@@ -1,0 +1,41 @@
+relationship 5161aea2-2d40-40ac-b5dd-28b7f020e776
+	fromColumn: chamados.id_cliente
+	toColumn: clientes.id_cliente
+
+relationship c7824df6-a193-4059-9971-939ad4dec14f
+	fromColumn: chamados.id_pop
+	toColumn: pops.id_pop
+
+relationship 3a20dea9-a567-47c3-a800-7a068783b9a7
+	fromColumn: chamados.id_tecnico
+	toColumn: tecnicos.id_tecnico
+
+relationship 11e25f23-b7b2-4cb3-b074-43d8c793ebd3
+	fromColumn: chamados.data_abertura
+	toColumn: Calendario.Date
+
+relationship 26d863b5-64f9-4bba-9a3b-e03628705bc2
+	joinOnDateBehavior: datePartOnly
+	fromColumn: chamados.abertura
+	toColumn: LocalDateTable_08c7956d-b255-4777-b691-42a5563bef6c.Date
+
+relationship 1f673f52-4c3f-469f-9247-652ff68f7983
+	joinOnDateBehavior: datePartOnly
+	fromColumn: chamados.inicio_atendimento
+	toColumn: LocalDateTable_0ebecb46-c5ce-40d1-8460-d6442634a680.Date
+
+relationship e31615cb-82d6-4375-9449-e11169ac9473
+	joinOnDateBehavior: datePartOnly
+	fromColumn: chamados.encerramento
+	toColumn: LocalDateTable_2665088a-17f1-472a-b2a0-65d9545ce76f.Date
+
+relationship 8c81d685-c62a-45ce-8111-f510da697b44
+	joinOnDateBehavior: datePartOnly
+	fromColumn: tecnicos.data_admissao
+	toColumn: LocalDateTable_4248f7f4-6a97-4959-ab05-7d0205dc197f.Date
+
+relationship be3dd3d3-617e-425b-b9f7-459d75b81643
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Calendario.Date
+	toColumn: LocalDateTable_2a1ddcd8-8b30-49e4-9b2f-e5a078723d4c.Date
+

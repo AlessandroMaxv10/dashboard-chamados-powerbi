@@ -1,0 +1,27 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	discourageImplicitMeasures
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["chamados","clientes","pops","tecnicos"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table chamados
+ref table clientes
+ref table pops
+ref table tecnicos
+ref table Calendario
+ref table DateTableTemplate_6d6d3ae2-b53f-41dd-a9f2-37fb567fd66c
+ref table LocalDateTable_08c7956d-b255-4777-b691-42a5563bef6c
+ref table LocalDateTable_0ebecb46-c5ce-40d1-8460-d6442634a680
+ref table LocalDateTable_2665088a-17f1-472a-b2a0-65d9545ce76f
+ref table LocalDateTable_4248f7f4-6a97-4959-ab05-7d0205dc197f
+ref table LocalDateTable_2a1ddcd8-8b30-49e4-9b2f-e5a078723d4c
+
